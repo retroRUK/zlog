@@ -16,3 +16,7 @@ func HttpError(w http.ResponseWriter, msg string, err error, code int) {
 		"error": msg,
 	})
 }
+
+func Error(msg string, err error) {
+	slog.Error(msg, "error", err)
+}
