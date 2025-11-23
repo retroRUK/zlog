@@ -1,4 +1,4 @@
-package main
+package zlog
 
 import (
 	"encoding/json"
