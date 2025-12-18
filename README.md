@@ -1,2 +1,2 @@
 # zlog
-Custom logging and http error handling
+Custom logging and http error handling.
